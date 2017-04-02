@@ -1,0 +1,173 @@
+/*!
+ * SlickNav Responsive Mobile Menu v1.0.6
+ * (c) 2015 Josh Cope
+ * licensed under MIT
+ */
+
+.slicknav_btn {
+    position: relative;
+    top: 9px;
+}
+
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 4px;
+}
+
+.slicknav_menu {
+    *zoom: 1;
+    float: left;
+}
+
+.slicknav_menu .slicknav_icon {
+    width: 24px;
+    height: 0.875em;
+    margin: 0.188em 0 0 0.438em;
+}
+
+.slicknav_menu .slicknav_icon:before {
+    background: transparent;
+    width: 24px;
+    height: 0.875em;
+    display: block;
+    content: "";
+    position: absolute;
+}
+
+.slicknav_menu .slicknav_no-text {
+    margin: 0;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin: 0 auto; 
+}
+
+.slicknav_menu:before {
+    content: " ";
+    display: table;
+}
+
+.slicknav_menu:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.slicknav_nav {
+    background-color: #f5f5f5;
+    position: absolute;
+    top: 45px;
+    width: 100vw;
+    margin-left: -20px !important;
+}
+
+.slicknav_nav li {
+    display: block;
+}
+
+.slicknav_nav .slicknav_arrow {
+    font-size: 1em;
+    position: relative;
+    top: -1px;
+}
+
+.slicknav_nav .slicknav_item {
+    cursor: pointer;
+}
+
+.slicknav_nav .slicknav_item a {
+    display: inline;
+}
+
+.slicknav_nav .slicknav_row {
+    display: block;
+}
+
+.slicknav_nav a {
+    display: block;
+}
+
+.slicknav_nav .slicknav_parent-link a {
+    display: inline;
+}
+
+.slicknav_brand {
+    float: left;
+}
+
+.slicknav_menu {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.slicknav_menu * {
+    box-sizing: border-box;
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #404040;
+}
+
+.slicknav_nav {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 0.875em;
+    list-style: none;
+    overflow: hidden;
+}
+
+.slicknav_nav ul {
+    display: block !important;
+    position: static !important;
+    float: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 5% 10px 5%;
+}
+
+.slicknav_nav ul li a {
+    width: auto;
+}
+
+.slicknav_nav .slicknav_row {} .slicknav_nav a {
+    text-decoration: none;
+    color: #404040;
+    font: bold 11px/12px 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 5%;
+    outline: none;
+}
+
+.slicknav_nav a:hover {
+    color: #404040;
+    background-color: #e9e9e9;
+}
+
+.slicknav_nav a:hover > a {
+    color: #404040;
+}
+
+.slicknav_nav .slicknav_txtnode {} .slicknav_nav .slicknav_item a {
+    padding: 0;
+    margin: 0;
+}
+
+.slicknav_nav .slicknav_parent-link a {
+    padding: 0;
+    margin: 0;
+}
+
+.slicknav_brand {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 7px 12px;
+    height: 44px;
+}
